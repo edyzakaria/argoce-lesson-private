@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: edizakaria/nginx:v0.1.0
+          image: edizakaria/nginx-private:v0.1.0
           ports:
             - containerPort: 80
