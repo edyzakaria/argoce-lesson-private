@@ -16,6 +16,6 @@ spec:
       containers:
         - name: nginx
           imagePullPolicy: Always
-          image: aputra/nginx
+          image: edizakaria/nginx
           ports:
             - containerPort: 80
